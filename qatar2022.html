@@ -56,8 +56,8 @@
             <div class="row justify-content-center">
                 <!-- Single Product -->
                 <div class="col-md-6 col-lg-4 col-xl-3">
-                    <div id="product-1" class="single-product">
-                        <a href="https://www.google.com">
+                    <div id="product-1" class="single-product" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <!-- <a href="https://www.google.com"> -->
                             <div class="part-1">
                             </div>
                             <div class="part-2">
@@ -65,13 +65,35 @@
                                 <h4 class="product-price">2 Albumes + 40 Sobres</h4>
                                 <h5 class="product-price">$49.99</h5>
                             </div>
-                        </a>
+                        <!-- </a> -->
                     </div>
+                    <!-- Modal -->
+					<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">Modalidad de Compra</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ¿Desea retirar o envíos?
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary"
+                                    data-bs-dismiss="modal">Mercado Libre</button>
+                                <button type="button" class="btn btn-primary">Retiro</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
                 </div>
                 <!-- Single Product -->
                 <div class="col-md-6 col-lg-4 col-xl-3">
-                    <div id="product-2" class="single-product">
-                        <a href="https://www.google.com">
+                    <div id="product-2" class="single-product" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <!-- <a href="https://www.google.com"> -->
                             <div class="part-1">
                                 <span class="discount">15% off</span>
                             </div>
@@ -80,13 +102,13 @@
                                 <h4 class="product-price">20 Sobres + 5 Figuritas Comúnes</h4>
                                 <h5 class="product-price">$49.99</h5>
                             </div>
-                        </a>
+                        <!-- </a> -->
                     </div>
                 </div>
                 <!-- Single Product -->
                 <div class="col-md-6 col-lg-4 col-xl-3">
-                    <div id="product-3" class="single-product">
-                        <a href="https://www.google.com">
+                    <div id="product-3" class="single-product" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <!-- <a href="https://www.google.com"> -->
                             <div class="part-1">
                             </div>
                             <div class="part-2">
@@ -94,7 +116,7 @@
                                 <h4 class="product-price">Album + 100 Sobres</h4>
                                 <h5 class="product-price">$49.99</h5>
                             </div>
-                        </a>
+                        <!-- </a> -->
                     </div>
                 </div>
     </section>
