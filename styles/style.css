@@ -59,23 +59,23 @@ a:hover {
 }
 
 .section-products #product-1 .part-1::before {
-    background: url("../images/panini01.jpg") no-repeat center;
+    background: url("../images/panini01.jpeg") no-repeat center;
     background-size: cover;
 		transition: all 0.3s;
 }
 
 .section-products #product-2 .part-1::before {
-    background: url("../images/panini\ 02.jpg") no-repeat center;
+    background: url("../images/panini02.jpeg") no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-3 .part-1::before {
-    background: url("../images/panini\ 03.jpg") no-repeat center;
+    background: url("../images/panini03.jpeg") no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-4 .part-1::before {
-    background: url("../images/panini04.jpg") no-repeat center;
+    background: url("../images/panini04.jpeg") no-repeat center;
     background-size: cover;
 }
 
@@ -221,8 +221,31 @@ a:hover {
   .bg-qatar-1{
     background-color: #360621;
   }
+
+  .logo {
+    max-width: 50px;
+  }
+
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(206, 212, 218)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: none;
+  }
+
+  /* qué es esto? */
   .navbar .navbar-nav .nav-item li a {
     font-size: 1.5em;
     font-weight: bold;
     color: white !important;
+}
+
+.navbar-brand, .nav-link {
+  color: var(--bs-gray-400);
+}
+
+.navbar-nav .nav-link.active {
+  color: #fab708;
+  font-weight: bold;
 }
